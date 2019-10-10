@@ -11,6 +11,7 @@ package ipk;
  */
 public class NewClassReza {
 
+    String S ="Sandy";
     /**
      * @return the r
      */
@@ -25,4 +26,9 @@ public class NewClassReza {
         this.r = r;
     }
     private int r;
+    
+    public static String Sandy(String S){
+        return S;
+    }
+    
 }
